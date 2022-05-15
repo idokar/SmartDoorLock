@@ -107,9 +107,9 @@ The channel admin can invite users to view the logs channel.
 #### [Pony-ORM](https://ponyorm.org)
 We created a DB using pony-orm that contains one entity which represents a Bluetooth device with the next properties:
 * `bluetooth_id` *-* Bluetooth MAC address.
-* `name` *-* device name.
-* `registered_time` *-* creation timestamp.
-* `until` *-* time to live (as an optional field).
+* `name` *-* Device name.
+* `registered_time` *-* Registration timestamp.
+* `until` *-* Time to live (as an optional field).
 
 We use this library because it allows us to extend this project to support multiple smart door devices without the need of doing major changes to the original code.
 In addition, this library lets us use many different databases without changing the code at all.
