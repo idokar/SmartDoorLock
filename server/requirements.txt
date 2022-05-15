@@ -1,0 +1,4 @@
+pony == 0.7.16  # DB lib
+TgCrypto == 1.2.3  # telegram lib
+Pyrogram == 1.4.8  # telegram lib
+paho-mqtt == 1.6.1  # mqtt lib
