@@ -1,6 +1,6 @@
 # SmartDoorLock
 ## About
-Part of the IOT (Internet of Things) course in the Hebrew university of Jerusalem. 
+This project is part of the IOT (Internet of Things) course in the Hebrew university of Jerusalem. 
 We made a smart door lock system based on Bluetooth device proximity.
 Our system scans for nearby Bluetooth devices, if it encounters a device that is near the door, it reports the Bluetooth MAC address to the server.
 The server gets a Bluetooth device identifiers and searches its database for a match.
